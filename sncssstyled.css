@@ -1,0 +1,37 @@
+#nav ul li{
+list-style:none;
+}
+#nav ul li{
+	background-color:red;
+	border:1px solid white;
+	width:150px;
+	height:35px;
+	float:left;
+	text-align:center;
+	line-height:35px;
+	position:relative;
+}
+#nav ul li a{
+	color:white;
+	display:block;
+	text-decoration:none;
+}
+#nav ul li:hover{
+	background-color:green;
+	
+}
+#nav ul ul{
+	position:absolute;
+	display:none;	
+}
+#nav ul li:hover > ul{
+	display:block;
+}
+#nav ul ul ul{
+	margin-left:150px;
+	top:0px;
+}
+#nav ul ul ul ul{
+	margin-left:150px;
+	top:0px;
+}

@@ -1,0 +1,23 @@
+#div1{
+		background-color:teal;
+		color:red;
+	}
+#div2{
+	background-color:magenta;
+	color:white;
+	}
+#div3{
+	background-color:orange;
+	color:blue;
+	}
+#div4{
+	background-color:green;
+	width:auto;
+	height:90px;
+	}
+#div5{
+	background-color:orange;
+	width:150px;
+	height:900px;
+	
+	}

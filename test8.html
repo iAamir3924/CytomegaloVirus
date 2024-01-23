@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css"rel="stylesheet"href="style1.css">
+</head>
+<BODY bgcolor="wheat">
+<div id="nav">
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Countries</a></li>
+	<li><a href="#">News</a>
+		<ul>
+		<li><a href="#">India</a>
+		<ul>
+			<li><a href="#">Delhi</a></li>
+			<li><a href="#">Punjab</a></li>
+			<li><a href="#">Hariyan</a></li>
+			<li><a href="#">MadhyaPradesh</a></li>
+			<li><a href="#">UttarPradesh</a>
+			<ul>
+			<li><a href="#">Allahabad</a></li>
+			<li><a href="#">Kaushambi</a></li>
+			<li><a href="#">Lucknown</a></li>
+			
+			</ul>
+			</li>
+		</ul>
+		</li>
+		<li><a href="#">Pakistan</a></li>
+		<li><a href="#">England</a></li>
+		<li><a href="#">Japan</a></li>
+		<li><a href="#">Australia</a>
+			<ul>
+			<li><a href="#">Australia1</a></li>
+			<li><a href="#">Australia2</a></li>
+			<li><a href="#">Australia3</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Srilanka</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Contact</a></li>
+	<li><a href="#">Help</a></li>
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="a.jpg" style="width:99%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="b.jpg" style="width:99%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="c.jpg" style="width:99%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<DIV ID="DIV1">
+
+<DIV ID="DIV2">
+
+<center><h1>Cytomegalovirus DataBase</h1></center>
+</DIV>
+
+
+<p>
+Cytomegalovirus (CMV) is a virus found around the world. It is related to the viruses that cause chickenpox and infectious mononucleosis (mono). Between 50 percent and 80 percent of adults in the United States have had a CMV infection by age 40. Once CMV is in a person's body, it stays there for life.
+
+CMV is spread through close contact with body fluids. Most people with CMV don't get sick and don't know that they've been infected. But infection with the virus can be serious in babies and people with weak immune systems. If a woman gets CMV when she is pregnant, she can pass it on to her baby. Usually the babies do not have health problems. But some babies can develop lifelong disabilities.
+
+A blood test can tell whether a person has ever been infected with CMV. Most people with CMV don't need treatment. If you have a weakened immune system, your doctor may prescribe antiviral medicine. Good hygiene, including proper hand washing, may help prevent infections.
+
+
+</p>
+<div>
+
+</div>
+</div>
+<br clear="all">
+<div class="div3">
+</diV>
+<br clear="all">
+</DIV>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+<center><footer>Copyright @ All right reserved for Shakti Sahi's lab</footer></center>
+</BODY>
+</HTML>

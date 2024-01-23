@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</HEAD>
+<BODY bgcolor="wheat">
+<h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/images.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/yoga.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/logo1.png" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<DIV ID="DIV1">
+
+<DIV ID="DIV2">
+
+<center><h1>Cytomegalovirus DataBase</h1></center>
+</DIV>
+
+<div>
+<h2><ul>
+<a href="#"><li>About DataBase</li></a>
+<a href="#"><li>Home</li></a>
+<a href="#"><li>Blast</li></a>
+<a href="#"><li>Analysis</li></a>
+<a href="#"><li>Help</li></a>
+</ul></h2>
+</div>
+</div>
+<br clear="all">
+<div class="div3">
+<p>
+Cytomegalovirus (CMV) is a virus found around the world. It is related to the viruses that cause chickenpox and infectious mononucleosis (mono). Between 50 percent and 80 percent of adults in the United States have had a CMV infection by age 40. Once CMV is in a person's body, it stays there for life.
+
+CMV is spread through close contact with body fluids. Most people with CMV don't get sick and don't know that they've been infected. But infection with the virus can be serious in babies and people with weak immune systems. If a woman gets CMV when she is pregnant, she can pass it on to her baby. Usually the babies do not have health problems. But some babies can develop lifelong disabilities.
+
+A blood test can tell whether a person has ever been infected with CMV. Most people with CMV don't need treatment. If you have a weakened immune system, your doctor may prescribe antiviral medicine. Good hygiene, including proper hand washing, may help prevent infections.
+
+
+</p>
+</diV>
+<br clear="all">
+</DIV>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<table>
+  <tr>
+    <th>Strains</th>
+    <th>Description</th>
+    <th>Available drugs/Associated disease</th>
+    <th>Protein</th>
+    <th>Gene</th>
+    <th>Structure</th>
+    <th>Snp</th>
+    <th>Taxa</th>
+    <th>Est</th>
+  </tr>
+  <tr>
+    <td>Aotine Betaherpes virus 1</td>
+    <td></td>
+    <td></td>
+    <td><a href="http://www.uniprot.org/uniprot/P16848">ul31</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cebine Betaherpes virus 1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cercopithecine Betaherpes virus 1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td>Macacine Betaherpes virus 1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> Panine Betaherpes virus 1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Papiine Betaherpes virus 1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+  <td>Human Betaherpes Virus 5</td>
+  <td></td>
+  <td></td>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+  <td>Saimiriine Betaherpes virus</td>
+  <td></td>
+  <td></td>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</table>
+<center><footer>Copyright @ All right reserved for Shakti Sahi's lab</footer></center>
+</BODY>
+</HTML>
