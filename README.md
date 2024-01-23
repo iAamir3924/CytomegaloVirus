@@ -10,4 +10,4 @@ We recommend no dissemenation of this data other than educational purposes, and 
 In case of any questions, suggestions, or technical errors, please write to us at aamirmehmood@sjtu.edu.cn. 
 
 # Website
-The main html file to be see is named is given as INDEX.html. 
+The main HTML file to be viewed is named "INDEX.html."
